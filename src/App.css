@@ -7,6 +7,8 @@ html {
 body {
      margin: 0;
      padding: 0;
+     background-color: #006266;
+
 }
 
 .flex {
@@ -34,6 +36,10 @@ h2 {
      gap: 20px;
 }
 
+.text {
+     background-color: whitesmoke;
+}
+
 .butts {
      display: flex;
      gap: 20px;
@@ -50,7 +56,7 @@ h2 {
 
 }
 
-.smoll-child-sl{
+.smoll-child-sl {
      display: flex;
      width: 50px;
      height: 56px;
@@ -59,7 +65,8 @@ h2 {
      justify-content: center;
      border-radius: 10px;
      border: 1px solid rgb(152, 150, 150);
-     color: rgb(124, 120, 120);
+     color:white;
+     background-color: #F79F1F;
      box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
 }
 
@@ -72,7 +79,9 @@ h2 {
      justify-content: center;
      border-radius: 10px;
      border: 1px solid rgb(152, 150, 150);
-     color: rgb(124, 120, 120);
+     background-color: #F79F1F;
+     color: white;
+     font-weight: bold;
      box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
 }
 

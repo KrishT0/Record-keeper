@@ -31,20 +31,20 @@ export default function Main() {
                          onChange={(e) => setName(e.target.value)}
                          id="outlined-basic"
                          label="name"
-                         variant="outlined" />
+                         variant="filled" />
                     <TextField className='text'
                          value={email}
                          onChange={(e) => setEmail(e.target.value)}
                          id="outlined-basic"
                          label="email"
-                         variant="outlined" />
+                         variant="filled" />
                </div>
                <Button onClick={addData} color='success' variant="contained" ><AddRoundedIcon /></Button>
 
                {data.map((e, index) => {
                     return (
-                         <div key={index} className="child-el">
-                              <p className='smoll-child-sl'>{index}</p>
+                         <div key={index+1} className="child-el">
+                              <p className='smoll-child-sl'>{index+1}</p>
                               <p className='smoll-child'>{e.name}</p>
                               <p className='smoll-child'>{e.email}</p>
                               <Button variant="contained" color="error" className="smoll-butt" onClick={() => removeList(index)}>
